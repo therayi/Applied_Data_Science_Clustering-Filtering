@@ -59,6 +59,7 @@ A silhouette plot was created to validate the clustering quality. The average si
 <br>Graph Type: Bar Chart
 <br>Insight: Drama is the dominant genre, followed by Comedy and Crime.
 ![image](https://github.com/user-attachments/assets/364d6a3e-a47d-40a4-a428-5a88513fcf6e)
+![image](https://github.com/user-attachments/assets/e068c319-8a28-4adb-a70a-2f723d65b9e8)
 ### 4.2 Correlation Heatmap
 <br>Graph Type: Heatmap
 <br>Insight: IMDb Rating correlates moderately with Meta Score but weakly with Gross Earnings.
@@ -70,13 +71,15 @@ A silhouette plot was created to validate the clustering quality. The average si
 ### 4.4 Clustering
 <br>Graph Type: Silhouette Plot and Scatter Plot
 <br>Insight: Movies were grouped into three clusters. The clusters represent different groupings of IMDb Ratings and Gross Earnings.
-![image](https://github.com/user-attachments/assets/ee1d5c59-c8ea-4394-babd-ccbddf32e442)
+![image](https://github.com/user-attachments/assets/fd91c510-85db-477d-8fc4-1c512ea2773a)
 ### 4.5 Line Fitting
-**Linear Model:** The linear model, while simple, does not fully explain the relationship between IMDb Rating and Gross Earnings, as evidenced by the low R² value. However, it provides a basic understanding of the positive trend.
-**Quadratic Model:** The quadratic regression captures the curvature of the data better, suggesting that the relationship between IMDb Rating and Gross Earnings may not be perfectly linear. As IMDb Ratings rise, Gross Earnings initially increase, but the effect seems to plateau or diminish as ratings become very high.
-**Statistical Significance:** The high statistical significance (low p-value) suggests that the relationship between IMDb Rating and Gross Earnings is real, though the strength of this relationship is modest.
-![image](https://github.com/user-attachments/assets/dc5c7815-9a07-4904-891c-1582b20315ef)
-![image](https://github.com/user-attachments/assets/4df2b440-9117-446a-900a-9577c12b1e0f)
+Intercept: The estimated value of the dependent variable when the independent variable is 0.
+Slope: The rate of change of the dependent variable with respect to the independent variable.
+R-squared: A measure of how well the regression model fits the data.
+P-values: The significance of the coefficients; smaller p-values indicate more significant predictors.
+Standard Error: A measure of the accuracy of the regression estimates.
+Confidence Intervals: The range within which the true regression coefficients are likely to fall, with a certain level of confidence (typically 95%).
+![image](https://github.com/user-attachments/assets/e7ec45da-c08d-467a-9529-e44d4e23c4aa)
 ## 5. Recommendations
 **For Movie Studios:** Focus on producing high-quality movies with higher IMDb ratings to increase revenue potential.
 <br>**For Analysts:** Further investigate how other factors (e.g., genre, director) influence Gross Earnings.
